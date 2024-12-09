@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+    </head>
+    <body>
+        <!--VAR LET CONST-->
+        <!--VAR-->
+        <script>
+        var fname="Priyanka";
+        var fname="Priyanka1";
+        var lname="Machale";
+        document.write(fname);
+        document.write("<br>");
+    </script>
+        <!--LET -->
+    <script>
+         let f_name="Sushma";
+        f_name="Pranali";
+        let l_name="Machale";
+        document.write(f_name);
+        document.write("<br>");
+    </script>
+        <!--CONST-->
+        <script>
+            const pi=3.14;
+            document.write(pi);
+        document.write("<br>");
+
+            
+        </script>
+
+        <script>
+            var name="Priya";   //global scope
+            function hello1(){
+                var name="Machale";    //function scope, local csope
+                document.write(name);
+                document.write("<br>");
+                
+            }
+            function hello2(){
+              
+                document.write(name);    //global scope
+                document.write("<br>");
+                
+            }
+            hello1();
+            hello2();
+            document.write(name);    //global scope
+        </script>
+
+    </body>
+</html>

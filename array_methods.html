@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- UPDATE AND DELETE -->
+    <script>
+        var a= ["Priya",25,"female","Student"];
+        document.write(a+"<br>");
+        a[1]=28 ;           //update value
+        document.write(a+"<br>");
+        delete a[2];        //delete value
+        document.write(a+"<br>");
+    </script>
+
+    <!-- SORT AND REVERSE  -->
+   <script>
+    var a=["HTML5","CSS3","JS","BOOTSTRAP","JAVA","PHP"];
+    document.write(a+"<br>");
+    a.sort();
+    document.write(a+"<br>");
+    a.reverse();
+    document.write(a+"<br>" +"<br>");
+   </script>
+    <!-- POP AND PUSH -->
+<script>
+    var a=["HTML5","CSS3","JS","BOOTSTRAP","JAVA","PHP"];
+    document.write(a+"<br>");
+    a.pop();
+    a.pop();
+    a.pop();
+    document.write(a+"<br>");
+    a.push("Mahi");
+    a.push("Chiu");
+    document.write(a+"<br>" +"<br>");
+   </script>
+    <!-- SHIFT AND UNSHIFT -->
+<script>
+    var a=["HTML5","CSS3","JS","BOOTSTRAP","JAVA","PHP"];
+    document.write(a+"<br>");
+    a.shift();
+    document.write(a+"<br>");
+    a.unshift("Riya");
+    a.unshift("rohit");
+    document.write(a+"<br>" +"<br>");
+   </script>
+
+   <!-- CONCAT AND JOIN -->
+    <script>
+         var a=["HTML5","CSS3","JS","BOOTSTRAP","JAVA","PHP"];
+        var b= ["Priya",25,"female","Student"];
+        var c =a.concat(b)
+         document.write(c+"<br>");
+         var d =c.join("||");
+         document.write(d+"<br>");
+
+    </script>
+
+<!-- Slice   new arry
+       slice(staart ,end)   [only print]      -->
+   <script>
+    var a=["HTML5","CSS3","JS","BOOTSTRAP","JAVA","PHP"];
+    document.write(a+"<br>");
+    var b=a.slice(1,4);
+    document.write(b+"<br>");
+//  SPLICE  modifing original array
+    // splice(index,how many delete,"newline")
+   </script>
+    <script>
+        var a=["HTML5","CSS3","JS","BOOTSTRAP","JAVA","PHP"];
+        document.write(a+"<br>");
+        a.splice(5);
+        document.write(a+"<br>");
+       </script>
+</body>
+</html>
